@@ -11,21 +11,23 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-container container">
-            <a href="../" class="header-logo link"><span class="web">Web</span>Studio</a>
+        <div class="header__container container">
+            <a href="../" class="header__logo link"><span class="web">Web</span>Studio</a>
             <nav class="navigation">
                 <ul class="navigation-menu list">
-                    <li class="navigation-item"><a href="./index.html" class="navigation-link link">Студия</a></li>
-                    <li class="navigation-item"><a href="./portfolio.html" class="navigation-link link active">Портфолио</a></li>
-                    <li class="navigation-item"><a href="" class="navigation-link link">Контакты</a></li>
+                    <li class="navigation-menu__item"><a href="./index.html"
+                            class="navigation-menu__link link">Студия</a></li>
+                    <li class="navigation-menu__item"><a href="./portfolio.html"
+                            class="navigation-menu__link link active">Портфолио</a></li>
+                    <li class="navigation-menu__item"><a href="" class="navigation-menu__link link">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="contacts-list list">
-                <li class="cotacts-item"><a href="mailto:info@devstudio.com" class="contacts-link link">
+                <li class="contacts-list__item"><a href="mailto:info@devstudio.com" class="contacts-list__link link">
                         <svg class="envelope-icon">
                             <use href="./imeg/symbol-defs.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a></li>
-                <li class="cotacts-item"><a href="tel:+380961111111" class="contacts-link link">
+                <li class="contacts-list__item"><a href="tel:+380961111111" class="contacts-list__link link">
                         <svg class="smartphone-icon">
                             <use href="./imeg/symbol-defs.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11</a></li>
@@ -35,141 +37,141 @@
     <main class="">
         <section class="section">
             <div class="container">
-                <h1 class="filter-title visually-hidden">Наши работы</h1>
+                <h1 class="visually-hidden">Наши работы</h1>
                 <ul class="filter-list list">
-                    <li class="filter-item">
-                        <button type="button" class="filter-btn">Все</button>
+                    <li class="filter-list__item">
+                        <button type="button" class="filter-list__btn">Все</button>
                     </li>
-                    <li class="filter-item">
-                        <button type="button" class="filter-btn">Веб-сайты</button>
+                    <li class="filter-list__item">
+                        <button type="button" class="filter-list__btn">Веб-сайты</button>
                     </li>
-                    <li class="filter-item">
-                        <button type="button" class="filter-btn">Приложения</button>
+                    <li class="filter-list__item">
+                        <button type="button" class="filter-list__btn">Приложения</button>
                     </li>
-                    <li class="filter-item">
-                        <button type="button" class="filter-btn">Дизайн</button>
+                    <li class="filter-list__item">
+                        <button type="button" class="filter-list__btn">Дизайн</button>
                     </li>
-                    <li class="filter-item">
-                        <button type="button" class="filter-btn">Маркетинг</button>
+                    <li class="filter-list__item">
+                        <button type="button" class="filter-list__btn">Маркетинг</button>
                     </li>
                 </ul>
             </div>
             <div class="container">
-                <ul class="portfolio list">
-                    <li class="portfolio-item">
-                        <a href="" class="portfolio-link link">
-                            <div class="card-description">
+                <ul class="portfolio-list list">
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link link">
+                            <div class="portfolio-list__overlay">
                                 <img src="./imeg/portfolioimg1.jpg" alt="монитор ноутбука" width="370" height="294"> 
-                                <p class="card-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+                                <p class="portfolio-list__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                 шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="portfolio-content">
-                                <h2 class="portfolio-link-title">Технокряк</h2>
-                                <p class="portfolio-link-text">Веб-сайт</p>
+                            <div class="portfolio-list__content">
+                                <h2 class="portfolio-list__card-title">Технокряк</h2>
+                                <p class="portfolio-list__card-text">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="portfolio-link link">
-                            <div class="card-description">
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link link">
+                            <div class="portfolio-list__overlay">
                                 <img src="./imeg/portfolioimg2.jpg" alt="два баскетболиста сражаются за мяч" width="370" height="294">
-                                <p class="card-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
+                                <p class="portfolio-list__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
                                     для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="portfolio-content">
-                                <h2 class="portfolio-link-title">Постер New Orlean vs Golden Star</h2>
-                                <p class="portfolio-link-text">Дизайн</p>
+                            <div class="portfolio-list__content">
+                                <h2 class="portfolio-list__card-title">Постер New Orlean vs Golden Star</h2>
+                                <p class="portfolio-list__card-text">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="portfolio-link link">
-                            <div class="card-description">
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link link">
+                            <div class="portfolio-list__overlay">
                                 <img src="./imeg/portfolioimg3.jpg" alt="эмблема ресторана" width="370" height="294">
-                                <p class="card-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
+                                <p class="portfolio-list__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
                                     для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="portfolio-content">
-                                <h2 class="portfolio-link-title">Ресторан Seafood</h2>
-                                <p class="portfolio-link-text">Приложение</p>
+                            <div class="portfolio-list__content">
+                                <h2 class="portfolio-list__card-title">Ресторан Seafood</h2>
+                                <p class="portfolio-list__card-text">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="portfolio-link link">
-                            <div class="card-description">
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link link">
+                            <div class="portfolio-list__overlay">
                                 <img src="./imeg/portfolioimg4.jpg" alt="наушники" width="370" height="294">
-                                <p class="card-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
+                                <p class="portfolio-list__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
                                     для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="portfolio-content">
-                                <h2 class="portfolio-link-title">Проект Prime</h2>
-                                <p class="portfolio-link-text">Маркетинг</p>
+                            <div class="portfolio-list__content">
+                                <h2 class="portfolio-list__card-title">Проект Prime</h2>
+                                <p class="portfolio-list__card-text">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="portfolio-link link">
-                            <div class="card-description">
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link link">
+                            <div class="portfolio-list__overlay">
                                 <img src="./imeg/portfolioimg5.jpg" alt="две коробки" width="370" height="294">
-                                <p class="card-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
+                                <p class="portfolio-list__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
                                     для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="portfolio-content">
-                                <h2 class="portfolio-link-title">Проект Boxes</h2>
-                                <p class="portfolio-link-text">Приложение</p>
+                            <div class="portfolio-list__content">
+                                <h2 class="portfolio-list__card-title">Проект Boxes</h2>
+                                <p class="portfolio-list__card-text">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="portfolio-link link">
-                            <div class="card-description">
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link link">
+                            <div class="portfolio-list__overlay">
                                 <img src="./imeg/portfolioimg6.jpg" alt="монитор компютера" width="370" height="294">
-                                <p class="card-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
+                                <p class="portfolio-list__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
                                     для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="portfolio-content">
-                                <h2 class="portfolio-link-title">Inspiration has no Borders</h2>
-                                <p class="portfolio-link-text">Веб-сайт</p>
+                            <div class="portfolio-list__content">
+                                <h2 class="portfolio-list__card-title">Inspiration has no Borders</h2>
+                                <p class="portfolio-list__card-text">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="portfolio-link link">
-                            <div class="card-description">
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link link">
+                            <div class="portfolio-list__overlay">
                                 <img src="./imeg/portfolioimg7.jpg" alt="развернутый журнал" width="370" height="294">
-                                <p class="card-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
+                                <p class="portfolio-list__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
                                     для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="portfolio-content">
-                                <h2 class="portfolio-link-title">Издание Limited Edition</h2>
-                                <p class="portfolio-link-text">Дизайн</p>
+                            <div class="portfolio-list__content">
+                                <h2 class="portfolio-list__card-title">Издание Limited Edition</h2>
+                                <p class="portfolio-list__card-text">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="portfolio-link link">
-                            <div class="card-description">
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link link">
+                            <div class="portfolio-list__overlay">
                                 <img src="./imeg/portfolioimg8.jpg" alt="бирка с надписью" width="370" height="294">
-                                <p class="card-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
+                                <p class="portfolio-list__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
                                     для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="portfolio-content">
-                                <h2 class="portfolio-link-title">Проект LAB</h2>
-                                <p class="portfolio-link-text">Маркетинг</p>
+                            <div class="portfolio-list__content">
+                                <h2 class="portfolio-list__card-title">Проект LAB</h2>
+                                <p class="portfolio-list__card-text">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-item">
-                        <a href="" class="portfolio-link link">
-                            <div class="card-description">
+                    <li class="portfolio-list__item">
+                        <a href="" class="portfolio-list__link link">
+                            <div class="portfolio-list__overlay">
                                 <img src="./imeg/portfolioimg9.jpg" alt="человек работает на ноутбуке" width="370" height="294">
-                                <p class="card-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
+                                <p class="portfolio-list__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
                                     для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
-                            <div class="portfolio-content">
-                                <h2 class="portfolio-link-title">Growing Business</h2>
-                                <p class="portfolio-link-text">Приложение</p>
+                            <div class="portfolio-list__content">
+                                <h2 class="portfolio-list__card-title">Growing Business</h2>
+                                <p class="portfolio-list__card-text">Приложение</p>
                             </div>
                         </a>    
                     </li>
@@ -178,46 +180,46 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-address">
-                <a href="../" class="footer-logo link"><span class="web">Web</span>Studio</a>
-                <address class="footer-address-data">
-                    <ul class="footer-list list">
-                        <li class="footer-contact-item">г. Киев, пр-т Леси Украинки, 26</li>
-                        <li class="footer-contact-item"><a class="footer-contact-link link"
+        <div class="container footer__container">
+            <div class="footer__contact">
+                <a href="../" class="footer__logo link"><span class="web">Web</span>Studio</a>
+                <address class="footer__address">
+                    <ul class="address-list list">
+                        <li class="address-list__item">г. Киев, пр-т Леси Украинки, 26</li>
+                        <li class="address-list__item"><a class="address-list__link link"
                                 href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li class="footer-contact-item"><a class="footer-contact-link link" href="tel:+380961111111">+38 096
+                        <li class="address-list__item"><a class="address-list__link link" href="tel:+380961111111">+38 096
                                 111 11 11</a></li>
                     </ul>
                 </address>
             </div>
             <div class="footer-social">
-                <h3 class="social-title">присоединяйтесь</h3>
-                <ul class="footer-social-list social-list">
-                    <li class="social-item list">
-                        <a href="" class="social-link link">
-                            <svg class="social-icon">
+                <h3 class="footer-social__title">присоединяйтесь</h3>
+                <ul class="social-list footer-social-list list">
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link link">
+                            <svg class="social-list__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-item list">
-                        <a href="" class="social-link link">
-                            <svg class="social-icon">
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link link">
+                            <svg class="social-list__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-item list">
-                        <a href="" class="social-link link">
-                            <svg class="social-icon">
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link link">
+                            <svg class="social-list__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-item list">
-                        <a href="" class="social-link link">
-                            <svg class="social-icon">
+                    <li class="social-list__item">
+                        <a href="" class="social-list__link link">
+                            <svg class="social-list__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-linkedin"></use>
                             </svg>
                         </a>
@@ -225,12 +227,12 @@
                 </ul>
             </div>
             <div class="footer-form">
-                <p class="form-title">Подпишитесь на рассылку</p>
-                <form action="#" class="mail-form">
+                <p class="footer-form__title">Подпишитесь на рассылку</p>
+                <form action="#" class="footer-form__mail-form">
                     <label for="footer-input">
-                        <input type="email" name="mail" id="footer-input" placeholder="E-mail" class="footer-input">
+                        <input type="email" name="mail" id="footer-input" placeholder="E-mail" class="footer-form__input">
                     </label>
-                    <button type="submit" class="btn footer-btn">Подписаться<svg class="send-icon">
+                    <button type="submit" class="btn footer-form__btn">Подписаться<svg class="footer-form__icon">
                             <use href="./imeg/symbol-defs.svg#icon-icon-send"></use>
                         </svg></button>
                 </form>

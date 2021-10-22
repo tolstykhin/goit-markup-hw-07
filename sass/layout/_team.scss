@@ -3,32 +3,35 @@
 }
 .team-list {
   display: flex;
+
+  &__item {
+    flex-basis: calc(100 / 4 - 30px);
+  }
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.team-item {
-  flex-basis: calc(100 / 4 - 30px);
-}
-.team-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .team-content {
   padding: 30px 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
   background: var(--white-color);
-}
-.team-subtitle {
-  margin-bottom: 10px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  color: var(--titel-text-color);
-}
-.team-text {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  margin-bottom: 16px;
+  &__subtitle {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--titel-text-color);
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-bottom: 16px;
+  }
 }

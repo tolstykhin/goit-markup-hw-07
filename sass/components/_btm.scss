@@ -17,9 +17,9 @@
   color: var(--accent-color-btn);
 
   transition: background var(--transform-time) var(--transform-function);
-}
-&:hover,
-&:focus {
-  background: #188ce8;
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    background: #188ce8;
+    cursor: pointer;
+  }
 }
