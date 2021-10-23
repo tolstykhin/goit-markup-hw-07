@@ -14,133 +14,133 @@
 <body>
     <header class="header">
         <div class="header__container container">
-        <a href="../" class="header__logo link"><span class="web">Web</span>Studio</a> 
+        <a href="../" class="header__logo"><span class="web">Web</span>Studio</a> 
         <nav class="navigation">
-            <ul class="navigation-menu list">
-                <li class="navigation-menu__item"><a href="./index.html" class="navigation-menu__link link active">Студия</a></li>
-                <li class="navigation-menu__item"><a href="./portfolio.html" class="navigation-menu__link link">Портфолио</a></li>
-                <li class="navigation-menu__item"><a href="" class="navigation-menu__link link">Контакты</a></li>
+            <ul class="navigation-menu">
+                <li class="navigation-menu__item"><a href="./index.html" class="navigation-menu__link navigation-menu__link--active">Студия</a></li>
+                <li class="navigation-menu__item"><a href="./portfolio.html" class="navigation-menu__link">Портфолио</a></li>
+                <li class="navigation-menu__item"><a href="" class="navigation-menu__link">Контакты</a></li>
             </ul>
         </nav>
-            <ul class="contacts-list list">
-                <li class="contacts-list__item"><a href="mailto:info@devstudio.com" class="contacts-list__link link">
+            <ul class="contacts-list">
+                <li class="contacts-list__item"><a href="mailto:info@devstudio.com" class="contacts-list__link">
                     <svg class="envelope-icon">
                         <use href="./imeg/symbol-defs.svg#icon-envelope"></use>
                     </svg>info@devstudio.com</a></li>
-                <li class="contacts-list__item"><a href="tel:+380961111111" class="contacts-list__link link">
+                <li class="contacts-list__item"><a href="tel:+380961111111" class="contacts-list__link">
                     <svg class="smartphone-icon">
                         <use href="./imeg/symbol-defs.svg#icon-smartphone"></use>
                     </svg>+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
-    <main class="main">
+    <main class="">
         <!-- Наши преимущества -->
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="btn" data-modal-open>Заказать услугу</button>
             </div>
         </section>
-        <section class="advantages section">
+        <section class="section">
             <div class="container">
-                <h2 class="advantages__title visually-hidden">Наши преимущества</h2>
-                <ul class="advantages-list list">
-                    <li class="advantages-list__item">
-                        <div class="advantages-list__tumb">
-                            <svg class="advantages-list__icon">
+                <h2 class="section__title visually-hidden">Наши преимущества</h2>
+                <ul class="advantages">
+                    <li class="advantages__item">
+                        <div class="advantages__tumb">
+                            <svg class="advantages__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="advantages-list__subtitle">Внимание к деталям</h3>
-                        <p class="advantages-list__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="advantages__title">Внимание к деталям</h3>
+                        <p class="advantages__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="advantages-list__item list">
-                        <div class="advantages-list__tumb">
-                            <svg class="advantages-list__icon">
+                    <li class="advantages__item">
+                        <div class="advantages__tumb">
+                            <svg class="advantages__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="advantages-list__subtitle">Пунктуальность</h3>
-                        <p class="advantages-list__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="advantages__title">Пунктуальность</h3>
+                        <p class="advantages__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="advantages-list__item list">
-                        <div class="advantages-list__tumb">
-                            <svg class="advantages-list__icon">
+                    <li class="advantages__item">
+                        <div class="advantages__tumb">
+                            <svg class="advantages__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="advantages-list__subtitle">Планирование</h3>
-                        <p class="advantages-list__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="advantages__title">Планирование</h3>
+                        <p class="advantages__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="advantages-list__item list">
-                        <div class="advantages-list__tumb">
-                            <svg class="advantages-list__icon">
+                    <li class="advantages__item">
+                        <div class="advantages__tumb">
+                            <svg class="advantages__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="advantages-list__subtitle">Современные технологии</h3>
-                        <p class="advantages-list__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="advantages__title">Современные технологии</h3>
+                        <p class="advantages__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- Чем мы занимаемся -->
-        <section class="work section">
+        <section class="section section--no-pading-top">
             <div class="container">
-                <h2 class="section-title">Чем мы занимаемся</h2>
-                <ul class="work-list">
-                    <li class="work-list__item list"><img src="./imeg/service1.jpg" alt="програмирование" width="370" height="294">
-                    <div class="work-list__imeg-tumb">
-                        <p class="work-list__imeg-tilte">Десктопные приложения</p>
+                <h2 class="section__title">Чем мы занимаемся</h2>
+                <ul class="work">
+                    <li class="work__item"><img src="./imeg/service1.jpg" alt="програмирование" width="370" height="294">
+                    <div class="work__imeg-tumb">
+                        <p class="work__imeg-tilte">Десктопные приложения</p>
                     </div>
                 </li>
-                    <li class="work-list__item list"><img src="./imeg/service2.jpg" alt="разработка" width="370" height="294">
-                    <div class="work-list__imeg-tumb">
-                        <p class="work-list__imeg-tilte">Мобильные приложения</p>
+                    <li class="work__item"><img src="./imeg/service2.jpg" alt="разработка" width="370" height="294">
+                    <div class="work__imeg-tumb">
+                        <p class="work__imeg-tilte">Мобильные приложения</p>
                     </div>
                 </li>
-                    <li class="work-list__item list"><img src="./imeg/service3.jpg" alt="дизайн" width="370" height="294">
-                    <div class="work-list__imeg-tumb">
-                        <p class="work-list__imeg-tilte">Дизайнерские решения</p>
+                    <li class="work__item"><img src="./imeg/service3.jpg" alt="дизайн" width="370" height="294">
+                    <div class="work__imeg-tumb">
+                        <p class="work__imeg-tilte">Дизайнерские решения</p>
                     </div>
                 </li>
                 </ul>
             </div>
         </section>
         <!-- Наша команда -->
-        <section class="team section">
+        <section class="section section--bg-gray">
             <div class="container">
-                <h2 class="section-title">Наша команда</h2>
-                <ul class="team-list">
-                    <li class="team-list__item list"><img src="./imeg/foto1.jpg" alt="фото Игоря Демьяненко" width="270" height="260">
+                <h2 class="section__title">Наша команда</h2>
+                <ul class="team">
+                    <li class="team__item"><img src="./imeg/foto1.jpg" alt="фото Игоря Демьяненко" width="270" height="260">
                         <div class="team-content">
                             <h3 class="team-content__subtitle">Игорь Демьяненко</h3>
                             <p class="team-content__text" lang="en">Product Designer</p>
-                            <ul class="social-list list">
+                            <ul class="social-list">
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-linkedin"></use>
                                         </svg>
@@ -149,34 +149,34 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-list__item list"><img src="./imeg/foto2.jpg" alt="фото Ольги Репиной" width="270" height="260">
+                    <li class="team__item"><img src="./imeg/foto2.jpg" alt="фото Ольги Репиной" width="270" height="260">
                         <div class="team-content">
                             <h3 class="team-content__subtitle">Ольга Репина</h3>
                             <p class="team-content__text" lang="en">Frontend Developer</p>
-                            <ul class="social-list list">
+                            <ul class="social-list">
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-linkedin"></use>
                                         </svg>
@@ -185,34 +185,34 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-list__item list"><img src="./imeg/foto3.jpg" alt="фото Николая Тарасова" width="270" height="260">
+                    <li class="team__item"><img src="./imeg/foto3.jpg" alt="фото Николая Тарасова" width="270" height="260">
                         <div class="team-content">
                             <h3 class="team-content__subtitle">Николай Тарасов</h3>
                             <p class="team-content__text" lang="en">Marketing</p>
-                            <ul class="social-list list">
+                            <ul class="social-list">
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-linkedin"></use>
                                         </svg>
@@ -221,34 +221,34 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-list__item list"><img src="./imeg/foto4.jpg" alt="фото Михаила Ермакова" width="270" height="260">
+                    <li class="team__item"><img src="./imeg/foto4.jpg" alt="фото Михаила Ермакова" width="270" height="260">
                         <div class="team-content">
                             <h3 class="team-content__subtitle">Михаил Ермаков</h3>
                             <p class="team-content__text" lang="en">UI Designer</p>
-                            <ul class="social-list list">
+                            <ul class="social-list">
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="" class="social-list__link link">
+                                    <a href="" class="social-list__link">
                                         <svg class="social-list__icon">
                                             <use href="./imeg/symbol-defs.svg#icon-linkedin"></use>
                                         </svg>
@@ -261,48 +261,48 @@
             </div>
         </section>
         <!-- Наши клиенты -->
-        <section class="client section">
+        <section class="section">
             <div class="container">
-                <h2 class="section-title">Постоянные клиенты</h2>
-                <ul class="clients-list">
-                    <li class="clients-list__item list">
-                        <a class="clients-list__link link" href="">
-                            <svg class="clients-list__icon">
+                <h2 class="section__title">Постоянные клиенты</h2>
+                <ul class="clients">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-Logo1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-list__item list">
-                        <a class="clients-list__link link" href="">
-                            <svg class="clients-list__icon">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-Logo2"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-list__item list">
-                        <a class="clients-list__link link" href="">
-                            <svg class="clients-list__icon">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-Logo3"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-list__item list">
-                        <a class="clients-list__link link" href="">
-                            <svg class="clients-list__icon">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-Logo4"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-list__item list">
-                        <a class="clients-list__link link" href="">
-                            <svg class="clients-list__icon">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-Logo5"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-list__item list">
-                        <a class="clients-list__link link" href="">
-                            <svg class="clients-list__icon">
+                    <li class="clients__item">
+                        <a class="clients__link" href="">
+                            <svg class="clients__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-Logo"></use>
                             </svg>
                         </a>
@@ -314,41 +314,41 @@
     <footer class="footer">
         <div class="container footer__container">
             <div class="footer__contact">
-                <a href="../" class="footer__logo link"><span class="web">Web</span>Studio</a>
+                <a href="../" class="footer__logo"><span class="web">Web</span>Studio</a>
                 <address class="footer__address">
-                    <ul class="address-list list">
+                    <ul class="address-list">
                         <li class="address-list__item">г. Киев, пр-т Леси Украинки, 26</li>
-                        <li class="address-list__item"><a class="address-list__link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li class="address-list__item"><a class="address-list__link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                        <li class="address-list__item"><a class="address-list__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="address-list__item"><a class="address-list__link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                     </ul>
                 </address>
             </div>
             <div class="footer-social">
                 <h3 class="footer-social__title">присоединяйтесь</h3>
-                <ul class="social-list footer-social-list list">
+                <ul class="social-list footer-social-list">
                     <li class="social-list__item">
-                        <a href="" class="social-list__link link">
+                        <a href="" class="social-list__link">
                             <svg class="social-list__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-list__item">
-                        <a href="" class="social-list__link link">
+                        <a href="" class="social-list__link">
                             <svg class="social-list__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-list__item">
-                        <a href="" class="social-list__link link">
+                        <a href="" class="social-list__link">
                             <svg class="social-list__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-list__item">
-                        <a href="" class="social-list__link link">
+                        <a href="" class="social-list__link">
                             <svg class="social-list__icon">
                                 <use href="./imeg/symbol-defs.svg#icon-linkedin"></use>
                             </svg>
@@ -427,7 +427,7 @@
                             </svg>
                         </span>
                         Соглашаюсь с рассылкой и принимаю &#160;
-                        <a href="" class="checkbox__link link">Условия договора</a>
+                        <a href="" class="checkbox__link">Условия договора</a>
                     </label>
                 </div>
                 <button type="submit" class="btn">Отправить</button>
